@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197788849304245930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197788849304245928}
+  - component: {fileID: 197788849304245929}
+  m_Layer: 0
+  m_Name: Soundtrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197788849304245928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197788849304245930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197788849304245929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197788849304245930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40665fc7b564087448fa10a4f00b7481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TopChords:
+  - {fileID: 8300000, guid: 98d075ae770aaeb46aebcb7c6568e832, type: 3}
+  - {fileID: 8300000, guid: 8109258f72e495e478b25bc95457a015, type: 3}
+  - {fileID: 8300000, guid: 50c34c7a743df934aac3e545d593d68d, type: 3}
+  - {fileID: 8300000, guid: 476c8924b4b3cf6479e91a219dd47bf5, type: 3}
+  - {fileID: 8300000, guid: e8c8311e85fa4304e853a7b20244bdf6, type: 3}
+  TopParts: []
+  TopIntro: {fileID: 8300000, guid: 2ebb7177b057c0d43b1d8077bb564e35, type: 3}
+  BottomChords:
+  - {fileID: 8300000, guid: fac042708c346204cb82d826cf33bf82, type: 3}
+  BottomParts: []
+  BottomIntro: {fileID: 8300000, guid: 5a62ce467650c9640ba20910daba028d, type: 3}
+  EncounterIntro: {fileID: 8300000, guid: dbdc68cbbc6b24a269323686c516241f, type: 3}
+  EncounterPart: {fileID: 8300000, guid: c9ad45019674341408fcfdf59f16c47b, type: 3}
+  CombatIntro: {fileID: 8300000, guid: fa843737a9d3549f484d3c0185608459, type: 3}
+  CombatPart: {fileID: 8300000, guid: 5a4636cf13d844e03a83715bc8382fab, type: 3}
+  _encountering: 0
+  _combatting: 0

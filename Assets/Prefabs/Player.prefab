@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3359707614750955892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3359707614750955888}
+  - component: {fileID: 3359707614750955895}
+  - component: {fileID: 3359707614750955894}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3359707614750955888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359707614750955892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3359707614750955895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359707614750955892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a358ba2291b944e659a5fb3e78d11719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServerIP: 
+--- !u!114 &3359707614750955894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359707614750955892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3f95a2a409e2041be207a5db39fcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinerEntityPrefab: {fileID: 8014891614238222095, guid: c6f94a261b71b364e8d32b6470d6b0e0,
+    type: 3}
+  HubEntityPrefab: {fileID: 1842469527594250148, guid: dba22c075088ca94e9340983c7548e8a,
+    type: 3}
+  OreEntityPrefab: {fileID: 5900253003881979684, guid: 8b230cfc0123b654fad167eecf0ee934,
+    type: 3}
+  MineEntityPrefab: {fileID: 4017323555158198257, guid: 2fb12bab4faba624bb3d682706a45b99,
+    type: 3}
+  MapManager: {fileID: 11400000, guid: 9c97bdaf81c30cd44aa0a32416943706, type: 2}
+  CreditCounter: {fileID: 0}
+  Credits: 0
+  myFactionID: -1

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8176224158205346168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4913702702510018159}
+  - component: {fileID: 7402046032651995544}
+  - component: {fileID: 9009009278304767099}
+  m_Layer: 5
+  m_Name: Unit Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4913702702510018159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176224158205346168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 93, y: 93}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7402046032651995544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176224158205346168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5ab3db37cf09741b7edd66284ac569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NullSprite: {fileID: 21300000, guid: c86371ceb238c3748a949d9bc6dafaa5, type: 3}
+  SpriteMappings:
+  - ItemID: 254
+    Image: {fileID: 21300000, guid: 0521eeb7d699829429d9d070ebb6ed99, type: 3}
+    Name: Mine
+    Price: 0
+    Description: Watch your step! Tiggers an explosion on collision with an enemy
+      unit.
+  - ItemID: 253
+    Image: {fileID: 21300000, guid: 83afa18ea7379a74896204e75e48c4f1, type: 3}
+    Name: Time Bomb
+    Price: 0
+    Description: Tick, tick... boom! Once placed, detonates after a few seconds.
+  - ItemID: 252
+    Image: {fileID: 21300000, guid: 5982062f41ec0b54e8a696d2c5820fc9, type: 3}
+    Name: Cement
+    Price: 0
+    Description: It's chemistry! Creates a block of walls tiles.
+  - ItemID: 251
+    Image: {fileID: 21300000, guid: 08bd977f1a21bc54ea027265cb12ca68, type: 3}
+    Name: Gas Bomb
+    Price: 0
+    Description: Better bring a mask. Fills an area with gas. Deals damage to units
+      over time.
+  - ItemID: 251
+    Image: {fileID: 21300000, guid: 5982062f41ec0b54e8a696d2c5820fc9, type: 3}
+    Name: Sonic Bomb
+    Price: 100
+    Description: Wow, that's bright! Reveals an large area of fog.
+  - ItemID: 155
+    Image: {fileID: 21300000, guid: a9e40227e20ca45c08b8db02f139ea65, type: 3}
+    Name: Dropped item
+    Price: 0
+    Description: 
+  - ItemID: 0
+    Image: {fileID: 21300000, guid: 3fdbdafc0680559439f79fa38fda4670, type: 3}
+    Name: Scout
+    Price: 5
+    Description: Breaks through walls quickly, but cannot mine gems.
+  - ItemID: 1
+    Image: {fileID: 978427636901635866, guid: 0bbfd0db92cb56147ad362759d36ba80, type: 3}
+    Name: Miner
+    Price: 10
+    Description: Specializes in gathering gems.
+  - ItemID: 2
+    Image: {fileID: -3968743263264693301, guid: cafbc85f10481ef42942a163deabaf22,
+      type: 3}
+    Name: Soldier
+    Price: 20
+    Description: Combat unit.
+  - ItemID: 3
+    Image: {fileID: 21300000, guid: 0f6c5bd424f44f84ea0cd1389379926f, type: 3}
+    Name: Truck
+    Price: 10
+    Description: Moves quickly. Can carry multiple items.
+--- !u!114 &9009009278304767099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176224158205346168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd79be1d2677d44cbefa551b5e2975d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InventorySlotPrefab: {fileID: 3709546910397900155, guid: b623dd5e83130064d82f51497e0e18d9,
+    type: 3}
+  InitialSpacing: 100
+  HorizontalSpacing: 70
+  VerticalSpacing: 70
+  SlotSize: 0.6
+  groupSelected: []
+  groupSelectedPrefab: {fileID: 5315085118858307749, guid: 839edf3837e71f4438498f2290d42909,
+    type: 3}
+  selectionUI: {fileID: 0}
+  groupSelect: {fileID: 0}

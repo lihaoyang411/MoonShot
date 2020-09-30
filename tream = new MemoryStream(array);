@@ -1,0 +1,768 @@
+[33mcommit 38a2a7675058206c37249b8b7ac2d604e7826604[m[33m ([m[1;36mHEAD -> [m[1;32mclient-work[m[33m, [m[1;31morigin/client-work[m[33m)[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Tue Oct 1 23:09:03 2019 -0500
+
+    fix compile errors
+
+[33mcommit 74567dec8538371e13f68780ee995cc63553996e[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Tue Oct 1 22:43:13 2019 -0500
+
+    start
+
+[33mcommit 2248ef93c4748c5f8e525387152f1d603ba8a558[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sun Sep 29 15:09:37 2019 -0500
+
+    flipped a conditional
+
+[33mcommit c96a55748e4b77863c848ef3d8652c8da0eac089[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sun Sep 29 15:05:14 2019 -0500
+
+    netwrapper size variability fix
+
+[33mcommit cabb9a7ae1eaca9e05d1ca114383039d281c26c4[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sun Sep 29 14:40:19 2019 -0500
+
+    netwrapper fix?
+
+[33mcommit df17ae2732e96166f8a0607695557c300602b546[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sun Sep 29 14:18:16 2019 -0500
+
+    send whole map
+
+[33mcommit fc05a07a632d05b861601c91c2eb15c96ec5427d[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sun Sep 29 13:31:59 2019 -0500
+
+    mining
+
+[33mcommit a0a024023b57509b8a1628cba64ba43c259477e3[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Sat Sep 28 21:31:45 2019 -0500
+
+    fixed scene:
+
+[33mcommit 0ea63705169c0db0c9e16d0ab0d14674e0945f1e[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sat Sep 28 17:27:00 2019 -0500
+
+    set up switching
+
+[33mcommit 34153b5e47f26f6793fe7420bcea5b6ff869dbb9[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 26 01:43:12 2019 -0500
+
+    scene
+
+[33mcommit f99f0f811c2e3ff779e4f2344ee6cecbd6544475[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 26 01:40:05 2019 -0500
+
+    rough move behavior works through packet interface with game clock
+
+[33mcommit 03fc0fa5b54ad95eb6bb2dd45c2ede191fccdb86[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Wed Sep 25 20:00:07 2019 -0500
+
+    fix lighting and shader
+
+[33mcommit b0e6d6376c0404c8bae07a605d48103c9a778a40[m
+Merge: 153fa66 b226c0b
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 18:07:55 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 153fa66bd2e3c42a675fdadb841bfae2897e2011[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 18:07:27 2019 -0500
+
+    ivan can you push that scene real quick?
+
+[33mcommit b226c0b4183e88cd0639cac1799c7a3e0356ebda[m
+Merge: ef953a6 dc79b17
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Wed Sep 25 18:00:03 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit ef953a611bcdb5088dc1ad1404a17d7d0e981f4f[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Wed Sep 25 17:58:56 2019 -0500
+
+    basic graph market
+
+[33mcommit dc79b17ed6422ef1e7ab52bbea62b4c84a81ca61[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 17:43:19 2019 -0500
+
+    Ground tiles
+
+[33mcommit 062f643d097a6d838dd2556e91173d3b26a59f89[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 17:40:17 2019 -0500
+
+    updated for build
+
+[33mcommit ee4b7d6f198f2229c2a2121200c2733b02762c93[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 17:28:31 2019 -0500
+
+    hooked up map
+
+[33mcommit 2264f9011f23ac5193fbd0fd80a3fff5bdb36d82[m
+Merge: ec3cb00 01a2b37
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 17:16:25 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit ec3cb00c42dd6afa8a96ce5c718120f94e03a202[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 17:16:19 2019 -0500
+
+    small art things
+
+[33mcommit 01a2b373b44d11889975c92c1199e0efe35b9ee1[m
+Merge: a23ad83 541a46b
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 17:14:41 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit a23ad83cfc15532372f0b4d02098cc1783139ab7[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 17:13:33 2019 -0500
+
+    world prefab
+
+[33mcommit 541a46bbab264b1fbc99c247622446d9489d6133[m
+Merge: 93e96ef cc832d7
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 16:15:22 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 93e96ef43166c8dea3f1011b8157ae3f97e335c7[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 25 16:15:19 2019 -0500
+
+    ewww netcode
+
+[33mcommit cc832d7e11b1ab2109df17941a16f4bdc37621f7[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 15:37:11 2019 -0500
+
+    RuleTiles
+
+[33mcommit 18b513359578cf4eea02ceaf373a35babad343b7[m[33m ([m[1;32mmaster[m[33m)[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 01:15:05 2019 -0500
+
+    document fixme and todos
+
+[33mcommit 17301487359c6065291dce7b961b743a1a05ac73[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 01:13:35 2019 -0500
+
+    fix spawn
+
+[33mcommit 9b7870093881a1291797d2f13b35959b61d0cd22[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 01:12:16 2019 -0500
+
+    flesh out unit manager a bit and netClient
+
+[33mcommit 66f6ccbd6d38879b30313682c1cf2f8dca55a0c3[m
+Merge: 762bd9b f04d4f9
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 00:23:17 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 762bd9b556049fabd7090bfb12a4b00052885ede[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 25 00:22:36 2019 -0500
+
+    changes'
+
+[33mcommit f04d4f9eaa91e72dc24cd6da3c39c7e1c9eca07d[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Tue Sep 24 17:58:56 2019 -0500
+
+    lights on hub
+
+[33mcommit 2fd7b65da498f52a3a025b65b04e27e50d138abb[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Tue Sep 24 17:44:27 2019 -0500
+
+    Hub animation
+
+[33mcommit 71d9e1457c8afca2c4101388b9ee1bbf26d8d4d0[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Mon Sep 23 19:32:30 2019 -0500
+
+    Gem Shader
+
+[33mcommit b8633e66160e6acbde2b1314d190acb548b5f236[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Mon Sep 23 11:30:18 2019 -0500
+
+    some 2d Lighting
+
+[33mcommit 1bd93b4a7159a3edef19feffd9da35cd45507325[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 19 23:50:15 2019 -0500
+
+    light refactor
+
+[33mcommit 58d8cfa6b4d1e719e48e6308aaa4ef2b5175e0e2[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 19 19:05:23 2019 -0500
+
+    updated test scene
+
+[33mcommit a11f1fd8862751daa51d07f792dbe60fc6d7fd10[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 19 19:04:38 2019 -0500
+
+    started packet size interp.
+
+[33mcommit 4ebd737be96a4bb84e12037c4408e91b48c1d4ab[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Wed Sep 18 20:09:52 2019 -0500
+
+    update Alison scene
+
+[33mcommit a7d56d401b6453993b11e572021acdf7a2399847[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Wed Sep 18 19:37:39 2019 -0500
+
+    Map updated
+
+[33mcommit 3de94569382770a81d2ab29f9721b99cd18c9842[m
+Merge: 7c0fe48 b7897d8
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 18 17:10:28 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 7c0fe48abae982774b8cc8454083b19b67a3d18c[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Wed Sep 18 17:10:24 2019 -0500
+
+    major network refactoring
+
+[33mcommit b7897d81c1f321a1ccc7e5aa15df7d6c366b2055[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Wed Sep 18 17:08:20 2019 -0500
+
+    Added minimap
+
+[33mcommit f8603276227ae6aadc81c8cd5563d9ae2fda7a92[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Wed Sep 18 14:23:11 2019 -0500
+
+    Dropped item, collision edit
+
+[33mcommit 733259649fbc686336ce763fc73660fb00760170[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Wed Sep 18 00:32:56 2019 -0500
+
+    deleted a garbage file
+
+[33mcommit 45dc7a61bcfa61a8d6932e22f7961e6ebbbdc8a9[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Wed Sep 18 00:31:34 2019 -0500
+
+    started refactoring netcode
+
+[33mcommit 10e28c7c3e1dff226b43299f113dfded9a084938[m
+Merge: 6996492 fdb7e82
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 17 23:16:27 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit fdb7e82b48cc5d86cd6c40de87b7da86911c59ce[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Tue Sep 17 19:46:16 2019 -0500
+
+    Drop Item
+
+[33mcommit 6996492f457c3799f64e496ec324d1bb9c7c10ea[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 17 16:55:10 2019 -0500
+
+    got a packet to send async
+
+[33mcommit 73ff2a92ab268a93a95eba49ac5e6da8ef93334f[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Tue Sep 17 02:07:06 2019 -0500
+
+    started debugging net
+
+[33mcommit ea6d3712bfa97889fea9ae5213e4e56623f4a740[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Mon Sep 16 22:06:27 2019 -0500
+
+    networking progress
+
+[33mcommit be9af94d68a13f5b70f5e5989cbf227c4a77796d[m[33m ([m[1;31morigin/networking[m[33m)[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Mon Sep 16 10:46:30 2019 -0500
+
+    Collection, but text flips
+
+[33mcommit 9fe589952dbd390206b20f8bfeede797d387c1d7[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sun Sep 15 21:41:07 2019 -0500
+
+    Add collect
+    
+    No drop yet
+
+[33mcommit f6b0cdffaaa581bbaa4ff4a9b1e26e963a979b38[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Sun Sep 15 20:58:58 2019 -0500
+
+    basic async connection seems to work
+
+[33mcommit 1f41f11510b3cdc005224f4a0eaa49c4bcd8b6c7[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 14 18:52:06 2019 -0500
+
+    server model and network setup
+
+[33mcommit 0f71db7ed31759949c595f005be31045a6c71893[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 14 18:51:51 2019 -0500
+
+    server model and network setup
+
+[33mcommit 1cc67e20e3b32ab01c0ffed7209a5bb91ae29c1c[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Thu Sep 12 10:49:06 2019 -0500
+
+    rough prototypes of client/server
+
+[33mcommit cf8ec88254f2c6579464516fd7c14efe207693ae[m
+Merge: 71e931f 4201af8
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Thu Sep 12 10:01:05 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 71e931f4bb2a92a6e9294bcc183c82759f624c37[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Thu Sep 12 10:00:57 2019 -0500
+
+    implemented 'FindBestAdjacentPath w/ threads
+
+[33mcommit 4201af89969213a8794c4a86704c37d35ccef894[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 11 19:18:21 2019 -0500
+
+    tweek unit speed and unit
+
+[33mcommit f807faa611b4395b48e603c2e84a6b9efb98be9a[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Wed Sep 11 18:20:26 2019 -0500
+
+    fixed drill animation; added build settings
+
+[33mcommit f5be61499747bbcf8430999608facdd5b1d1757d[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 11 16:30:13 2019 -0500
+
+    ore generation
+
+[33mcommit 7d22bef494f4266c90337624559ee2720ef53cdb[m
+Merge: c98fb9e 1104075
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 11 15:11:00 2019 -0500
+
+    merge
+
+[33mcommit c98fb9e5536bbaabbb21b93860c0f767ee08f75b[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Wed Sep 11 15:10:29 2019 -0500
+
+    animation and sprite for units
+
+[33mcommit 110407590d9a3f8af9c622e26fe6951b291e66ff[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Wed Sep 11 13:39:33 2019 -0500
+
+    inverted pathfinding for optimization
+
+[33mcommit 329baf272749b39a92a8c764cb8cd068e29131d4[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Tue Sep 10 21:04:48 2019 -0500
+
+    Menu correction
+
+[33mcommit 90e7996dda88225fc2c1dba412eb405dbaac983b[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 10 18:27:59 2019 -0500
+
+    added demo particles for mining
+
+[33mcommit 6e397a578151ef4f8dcd7d27e23499127a81e97b[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 10 17:49:18 2019 -0500
+
+    added mining
+
+[33mcommit 133b4cef2b62632d324e4f84181941d1ccc88274[m
+Merge: 0c8a852 d43ec6c
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 10 16:23:22 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 0c8a85224d755aabb6968edb6efa6b9fca727bed[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 10 16:23:10 2019 -0500
+
+    connected map and pathfinding
+
+[33mcommit d2cae35d9a7f64b599ccc839b28e65610fd1c081[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Tue Sep 10 16:22:39 2019 -0500
+
+    connected map and pathfinding
+
+[33mcommit d43ec6c7650cd66d8cc861dc48c5d17967994feb[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Tue Sep 10 16:20:15 2019 -0500
+
+    main menu shader; removed 2d rendering settings
+
+[33mcommit 4b9bdc819ce3eb343faee3b1933a9044aa03c91d[m
+Merge: b4410cf f8777e2
+Author: ivanolin <olinid@utexas.edu>
+Date:   Tue Sep 10 13:39:15 2019 -0500
+
+    merge
+
+[33mcommit b4410cf3e8743d310fcd98f1ae4554f8f99b618e[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Tue Sep 10 13:38:05 2019 -0500
+
+    started market
+
+[33mcommit 55757a173b58c9f12393421f981965b0e0ecf312[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Tue Sep 10 13:37:21 2019 -0500
+
+    started market
+
+[33mcommit f8777e29158966502cafccef556265281615c81b[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Tue Sep 10 13:14:44 2019 -0500
+
+    space transform functions
+
+[33mcommit a49cbbea0c928d37364cab33349d2f0aaeca40aa[m
+Merge: 3f57f26 6bd4308
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Tue Sep 10 12:27:10 2019 -0500
+
+    merge
+
+[33mcommit 3f57f26a6827049af3f9ff30e16aca70d9aef0bf[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Tue Sep 10 12:26:07 2019 -0500
+
+    meta
+
+[33mcommit 6bd4308513481de3ed59cd9c7fab66af686a53ba[m
+Author: imcdo <ian_mcdonald@rocketmail.com>
+Date:   Tue Sep 10 02:15:19 2019 -0500
+
+    wiring
+
+[33mcommit 0557b222fae64cfa8cd46b26065fc1a807ff6889[m
+Merge: 9105ca7 d7333d7
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Mon Sep 9 20:48:52 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 9105ca7c7f401fb356583ba3efc77efc697ab915[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Mon Sep 9 20:48:40 2019 -0500
+
+    map system partial integration
+
+[33mcommit d7333d72cab0419f0640471ea2774f3d57ddecb1[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Mon Sep 9 18:15:34 2019 -0500
+
+    improved byte map interface
+
+[33mcommit 639ab97cee7a137879754e6d8d91f5a435ddd880[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Mon Sep 9 13:59:28 2019 -0500
+
+    shader
+
+[33mcommit dde2e9cd28e1e97e1a640ba2dc1aa56c91ca09b1[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Mon Sep 9 12:27:57 2019 -0500
+
+    shader folder created
+
+[33mcommit c4d1587ae41218115b7653b42cff38c920ef031a[m
+Author: Hsa200 <AdamGAugustine@utexas.edu>
+Date:   Mon Sep 9 12:26:29 2019 -0500
+
+    Ambience Soundtrack
+
+[33mcommit 277e0d02a658cf76730e936efbc436b6bfe0d609[m
+Merge: 76d98ba 29413ea
+Author: Hsa200 <AdamGAugustine@utexas.edu>
+Date:   Mon Sep 9 12:22:59 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 76d98baa574bc22abdbe18fd86271e330ae9b0e9[m
+Author: Hsa200 <AdamGAugustine@utexas.edu>
+Date:   Mon Sep 9 12:21:33 2019 -0500
+
+    FX for game jam
+
+[33mcommit 29413ea25d6556f0e1f6f99258799c9096861c14[m
+Merge: 3c96a7f 2f16cde
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Mon Sep 9 12:15:31 2019 -0500
+
+    merge
+
+[33mcommit 3c96a7fda97b0232acbb197dcb877703098a45d2[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Mon Sep 9 12:14:20 2019 -0500
+
+    tile testing
+
+[33mcommit 2f16cde8cc72edd202ee9c847a532f2a0ee13354[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Mon Sep 9 09:52:33 2019 -0500
+
+    title
+
+[33mcommit 088da6f9939a5da13b36dda5d66925b78deb8ec9[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Mon Sep 9 00:17:54 2019 -0500
+
+    added AStarGrid and Pathfinder
+
+[33mcommit e23bb6f0a9f5cf565f68cce8cc7353cf080ba699[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sun Sep 8 20:10:07 2019 -0500
+
+    Tile generation
+    
+    Tile generation of one layer complete
+
+[33mcommit 086e445e81c237d599218964abcbaef17f50c952[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sun Sep 8 19:55:25 2019 -0500
+
+    Radial Menu prototype
+
+[33mcommit ddd5421ac2a746cb802894628b21a016b75fee27[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Sat Sep 7 21:59:50 2019 -0500
+
+    updated TestWackfinder scene
+
+[33mcommit 1f49c7d0af242c357b75c81c4052896b4d0ff471[m
+Author: ivanolin <olinid@utexas.edu>
+Date:   Sat Sep 7 21:58:10 2019 -0500
+
+    fixed p-queue overflow, destination error, added path display
+
+[33mcommit 1f51fe74ee6cb21e428ffeb38c82ff28b3e3065c[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 21:47:17 2019 -0500
+
+    more camera controls
+
+[33mcommit 61ce5f4a328cb9eca60861156a1af8b6b77ddf85[m
+Merge: 7bf34cb 22eadce
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 21:16:38 2019 -0500
+
+    merge
+
+[33mcommit 7bf34cb865c3bce038833b0329d4f27c80960d0e[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 21:16:04 2019 -0500
+
+    tile stuff
+
+[33mcommit 22eadceb82acae37eb617be131272d50ba22b284[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 21:05:19 2019 -0500
+
+    Converted materials to LWRP
+
+[33mcommit f194ec435d9f8c3eb838fb2dab16027f80b145d8[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 21:00:41 2019 -0500
+
+    Organized files
+
+[33mcommit 3a88b5194102f18290a4ab25f6edb249ff8e9031[m
+Merge: 7d2dea1 0cd2c01
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 20:56:23 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 7d2dea10b4f4b8fcfff1f5ec1f87f2b1e4ed3b33[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 20:49:53 2019 -0500
+
+    added MainMenu
+
+[33mcommit 0cd2c01919b7e4ea23ebcb2aaedc666649cced44[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sat Sep 7 18:57:57 2019 -0500
+
+    wackfinder 1.0
+
+[33mcommit 9798e99113f34d1526ce0a2586758d1a3da808f7[m
+Merge: dda5552 e7fb54c
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 18:14:48 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit dda5552bc0bb2d847a1de061bc2a11b18e580eb9[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 18:14:32 2019 -0500
+
+    selection sound
+
+[33mcommit e7fb54c4a6b8cb960a8f26b2e3115ee03d8a6807[m
+Author: Wade Bribach <wmingb@gmail.com>
+Date:   Sat Sep 7 18:12:39 2019 -0500
+
+    added test atlas for isometric view
+
+[33mcommit 88940482a4a5daca3421df85a3779b3ef27bc966[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sat Sep 7 17:39:41 2019 -0500
+
+    Generation script (not ready)
+
+[33mcommit cd13d70b84f47f03031fa00fc5323625fd3cc029[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 17:28:30 2019 -0500
+
+    unit prefab
+
+[33mcommit daf3dda6b0676cf9601bff67837107e7b66e1508[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 17:08:01 2019 -0500
+
+    unit movement
+
+[33mcommit 5e4d28d51a77ec896732711c1590b1e7ad9371f6[m
+Merge: 5bd6ee0 0094cc3
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 16:00:23 2019 -0500
+
+    merge
+
+[33mcommit 5bd6ee0fcc68258d799cbc250ff8c1620d9eb9ec[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 15:58:42 2019 -0500
+
+    smoothing for camera
+
+[33mcommit 0094cc3d9ad04565906cbe7a381e53256a665444[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sat Sep 7 15:22:44 2019 -0500
+
+    TileMap
+    
+    Tile maps, palettes, and light that effect the Normal map of the atlas
+
+[33mcommit 7933a9f59d341c598fad82eb005ff0b200669cd8[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 14:29:13 2019 -0500
+
+    add map manager and basic camera movement
+
+[33mcommit 4943d3576ecef15d4b17038d5761168c9ff3928f[m
+Merge: c462d45 62d54a5
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sat Sep 7 14:02:05 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit c462d45746137958307f6ba602cec2a70a70b720[m
+Author: AMWilkes <amwilkes20@gmail.com>
+Date:   Sat Sep 7 13:55:38 2019 -0500
+
+    2D lighting
+    
+    Full project changed to 2D lighting
+
+[33mcommit 62d54a5a79888786e2ca58fd897b4c9dd9559482[m
+Merge: d558758 22a399b
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 13:50:33 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit d558758452d6e6da9851441a3f8c2a71866df851[m
+Author: justin2jam <justin2jam@gmail.com>
+Date:   Sat Sep 7 13:50:11 2019 -0500
+
+    Added Selection script and Justin's scene
+
+[33mcommit 22a399bc5c1b23278fab6fb7810937a737f61b3e[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 13:41:49 2019 -0500
+
+    Unit added
+
+[33mcommit cd9775e2925eb754adca18e9f12eedb0d4b59954[m
+Merge: 1df1e43 206f190
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sat Sep 7 13:09:32 2019 -0500
+
+    Merge branch 'master' of https://github.com/imcdo/MoonShot
+
+[33mcommit 1df1e43b64a7b252a56b006d57f9d77de1d4d27c[m
+Author: Ivan Olin <olinid@utexas.edu>
+Date:   Sat Sep 7 13:09:15 2019 -0500
+
+    added Wackfinder
+
+[33mcommit 206f19092d7b97868cc2b9e6cc65b721316b7e27[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 13:04:27 2019 -0500
+
+    folder structure and Listened value
+
+[33mcommit c16cebb15756af2cf2cc851f484dce30f472d5ba[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 12:45:27 2019 -0500
+
+    add readme
+
+[33mcommit d70dbe4254ac529c591642daae31f10b332ae7ca[m
+Author: ilm353 <ian_mcdonald@rocketmail.com>
+Date:   Sat Sep 7 12:39:59 2019 -0500
+
+    init

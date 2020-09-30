@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scan lines
+  m_Shader: {fileID: -6465566751694194690, guid: 82b41f7743e6af84d9db2a9d3ad27219,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3C5415ED:
+        m_Texture: {fileID: 2800000, guid: 5725612b866f134489026cd0ad15c8e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_68176295:
+        m_Texture: {fileID: 2800000, guid: e2c5d4df42486504da411c2c5b3c2c33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_305215D9: 130
+    - Vector1_57DBF51A: 0.3
+    - Vector1_6592B177: 1.5
+    - Vector1_8F6BCDEF: 1
+    - Vector1_95BECE30: 1.5
+    - Vector1_9FFD3FD7: 0.3
+    - Vector1_A93182C2: 0.5
+    - Vector1_B66ACE3B: 1
+    - Vector1_BE8FA46D: 0.5
+    - Vector1_FDFDFBAE: 130
+    m_Colors:
+    - Color_19703CD3: {r: 0.09184764, g: 0.2264151, b: 0.1136041, a: 0}
+    - Color_49D89BA0: {r: 0.08517267, g: 0.31132078, b: 0.08880522, a: 0}

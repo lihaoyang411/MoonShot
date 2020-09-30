@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b3ced6d195ff49b9bda4738907e0f, type: 3}
+  m_Name: New Map Manager
+  m_EditorClassIdentifier: 
+  WallTiles:
+  - {fileID: 11400000, guid: 7375d9d240876ba4b8d093e3b5107ec3, type: 2}
+  - {fileID: 11400000, guid: ca6350c5a95878143b75d0a5c988dd4e, type: 2}
+  - {fileID: 11400000, guid: e2e0dcbc7254fbf4788e2d97ce7df12b, type: 2}
+  - {fileID: 11400000, guid: 7375d9d240876ba4b8d093e3b5107ec3, type: 2}
+  - {fileID: 11400000, guid: dbf969a7286baa04eb42afe9e92c3e62, type: 2}
+  _mapWidth: 100
+  _mapHeight: 100
